@@ -11,3 +11,12 @@
     align-itmes:center;
     gap: 32px;
 }
+.rating-container{
+    display: flex;
+    flex-directions: row;
+    align-itmes: center;
+    gap: 12px;
+}
+.rating{
+    margin-left: 36px;
+}
