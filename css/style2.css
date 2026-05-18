@@ -4,6 +4,7 @@
     justify-content:space-between;
     align-itmes:center;
 }
+
 .flex2, .flex3{
     display:flex;
     flex-direction:row;
@@ -11,6 +12,7 @@
     align-itmes:center;
     gap: 32px;
 }
+
 .rating-container{
     display: flex;
     flex-directions: row;
@@ -19,4 +21,35 @@
 }
 .rating{
     margin-left: 36px;
+}
+
+.card {
+    height: 400px;
+    width: 200px;
+    margin: 300px auto;
+
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.card-price {
+    width: 100%;
+    height: 80px;
+    background-color: magenta;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
